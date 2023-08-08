@@ -24,7 +24,7 @@ nav{
     width: 100%;
     float: left;
 }
-.nav_scroll_add{
+.nav_scroll{
     position: fixed;
     top: 20px;
     z-index: 999;
@@ -42,7 +42,7 @@ main{
     margin: 0 auto;
     box-shadow: 0px 5px 6px 0px rgba(0, 0, 0, 0.37);
     padding: 10px;
-    background-color: #ffffffd4;
+    background-color: #ffffffea;
 }
 .custum_navbar{
     float: right;
@@ -115,7 +115,7 @@ main{
         position: sticky;
         z-index: 1000;
     }
-    .nav_scroll_add {
+    .nav_scroll{
         display: none;
     }
     .active{
@@ -148,33 +148,27 @@ main{
 }
 /* End Nabar style */
 
-.container-image{
-    position: relative;
-}
-.background-image{
-    position: absolute;
-    top: 25px;
-    animation: move 5s infinite;
-}
-.webdevlopment-image{
+/* card slider stleling */
+  .swiper {
     width: 100%;
-    height: 250px;
-    position: absolute;
-    top: 0;
-    z-index: 19;    
-}
-.webimges{
-    margin-left: 50px;
-}
-
-@keyframes move {
-    0% {
-        top: 25px;
-    }
-    100%{
-        top: 0;
-    }
-    50%{
-        top: 15px;
-    }
+    height: 100%;
   }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: default;
+    cursor: move;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* End card slider stleling */
