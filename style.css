@@ -194,7 +194,7 @@ main{
     transition: 1s; 
 }
 #know:hover{
-    background: linear-gradient(to right,rgba(118, 33, 11, 0.57),rgba(255, 255, 0, 0.553));
+    background: linear-gradient(to right,#15766F,#C86244);
     margin-top: -13px;
 }
 #know .content{
@@ -210,4 +210,11 @@ main{
     border-radius: 50%;
     margin: 0 auto;
     font-size: 40px;
+}
+#cards{
+    margin-top: 40px;
+}
+#cards:hover{
+    margin-top: 20px;
+    transition: 1s;
 }
