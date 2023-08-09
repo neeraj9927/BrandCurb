@@ -178,10 +178,26 @@ main{
   }
 #shadow:hover{
     box-shadow: 0px 5px 12px #00000083;
-    margin-top: -3px;
 }
 .select_option{
     border: none;
     outline: none;
     padding: 10px 20px;
+}
+
+#know{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.507),rgba(0, 0, 0, 0.605)), url(images/brandcurb-web-dev-industry-web.webp);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+    border-radius: 10px;
+    transition: 1s; 
+}
+#know:hover{
+    background: linear-gradient(to right,rgba(118, 33, 11, 0.57),rgba(255, 255, 0, 0.553));
+    margin-top: -13px;
+}
+#know .content{
+    margin-top: 200px;
 }
