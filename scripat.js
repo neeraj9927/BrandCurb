@@ -26,10 +26,11 @@ window.addEventListener('scroll', () => {
 }); 
 // end navbar scripat
 
+// start card slider scripa
 var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 1,
-    spaceBetween: 10,    
-    autoplay: {
+  slidesPerView: 1,
+  spaceBetween: 10,    
+  autoplay: {
         delay: 2500,
         disableOnInteraction: true,
         loop:true,
@@ -53,3 +54,4 @@ var swiper = new Swiper(".mySwiper", {
       },
     },
   });
+  //end card slider scripat
