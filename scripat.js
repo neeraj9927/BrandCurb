@@ -57,8 +57,7 @@ var swiper = new Swiper(".mySwiper", {
   //end card slider scripat
 // start card slider two
   (function () {
-    "use strict";
-  
+    "use strict";  
     var carousels = function () {
       $(".owl-carousel1").owlCarousel({
         loop: true,
