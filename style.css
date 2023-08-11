@@ -92,7 +92,7 @@ main{
     color: #ffffff !important;
     background: linear-gradient(to top, #be4b2f, #df5532);
   }
-  .websitesolu::after{
+  /* .websitesolu::after{
     position: absolute;
     content: '';
     height: 4px;
@@ -115,7 +115,7 @@ main{
       width: 218px;
       transition: .3s;
     }
-  }
+  } */
 @media (max-width:768.98px) {
     nav{
         border-bottom: 1px solid rgba(0, 0, 0, 0.238);
@@ -169,19 +169,7 @@ main{
     @keyframes mymove {
         100% {transform: rotate(180deg);}
       }
-      .websitesolu::after{
-        left: 37.6%;
-      }
-      @keyframes websolu {
-        0%{
-          width: 0;
-        }
-        100%{
-          width: 195px;
-          transition: .3s;
-        }
   }
-}
 @media (min-width:768px) and (max-width:1024px) {
     main{
         width: 90%;
