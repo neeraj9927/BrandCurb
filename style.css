@@ -92,6 +92,26 @@ main{
     color: #ffffff !important;
     background: linear-gradient(to top, #be4b2f, #df5532);
   }
+  .websitesolu::after{
+    position: absolute;
+    content: '';
+    height: 4px;
+    background: #17756E;
+    left: 43%;
+    bottom: 0;
+    animation: forwards 2s websolu;
+    animation-play-state: running;
+    transition: .5s;
+  }
+  @keyframes websolu {
+    0%{
+      width: 0;
+    }
+    100%{
+      width: 210px;
+      transition: .3s;
+    }
+  }
 @media (max-width:768.98px) {
     nav{
         border-bottom: 1px solid rgba(0, 0, 0, 0.238);
