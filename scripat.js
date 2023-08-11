@@ -65,15 +65,18 @@ var swiper = new Swiper(".mySwiper", {
         margin: 0,
         responsiveClass: true,
         nav: false,
+        // autoplay:true,
+        // autoplayTimeout:2000,
+        // autoplayHoverPause:true,
+        mergeFit:true,
         responsive: {
           0: {
             items: 1,
-            nav: false
+            nav: true
           },
           680: {
             items: 2,
-            nav: false,
-            loop: false
+            nav: true,
           },
           1000: {
             items: 3,
