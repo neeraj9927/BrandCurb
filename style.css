@@ -195,7 +195,7 @@ main{
     justify-content: center;
     align-items: center;
     cursor: default;
-    cursor: move;
+    cursor: grab;
   }
 
   .swiper-slide img {
@@ -299,6 +299,7 @@ background: linear-gradient(to right,#D36141,#17756E);
     padding: 0 10px;
     border-radius: 20px;
     border: 0;
+    cursor: grab;
   }
   .cards-container .card h5 span {
     font-size: 18px;
