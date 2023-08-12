@@ -287,6 +287,7 @@ background: linear-gradient(to right,#D36141,#17756E);
   }
   .owl-item.active{
     height: 250px;
+    border: none;
   }
   .cards-container .owl-dots span {
     position: relative;
