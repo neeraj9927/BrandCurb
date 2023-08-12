@@ -264,13 +264,29 @@ background: linear-gradient(to right,#D36141,#17756E);
     margin-top: 30px;
   }
   .cards-container .owl-stage-outer {
-    padding: 30px 0;
+    padding: 10px 0;
   }
   .cards-container .owl-nav {
     display: none;
   }
   .cards-container .owl-dots {
     text-align: center;
+  }
+  .owl-dots{
+    height: 25px;
+  }
+  .owl-dot.active{
+    height: 20px;
+  }
+  .owl-stage{
+    height: 230px;
+  }
+  .owl-item.active.center{
+    height: 230px;
+    border: none;
+  }
+  .owl-item.active{
+    height: 250px;
   }
   .cards-container .owl-dots span {
     position: relative;
@@ -305,6 +321,7 @@ background: linear-gradient(to right,#D36141,#17756E);
     font-size: 18px;
     color: #666;
   }
+
   .cards-container .active {
     opacity: 1;
     transition: all 0.3s;
