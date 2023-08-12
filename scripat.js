@@ -101,3 +101,24 @@ var swiper = new Swiper(".mySwiper", {
     },
   });
   // End the swiper secound
+
+
+  // start back to top button
+var backtoTopButton = document.getElementById('backtoTopButton');
+
+window.addEventListener("scroll", () => {
+    if (window.pageYOffset > 500) {
+        backtoTopButton.style.display = "block";
+    }
+    else{
+        backtoTopButton.style.display = "none";
+    }
+})
+
+backtoTopButton.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth",
+    });
+});
+// End back to top button
