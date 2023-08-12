@@ -191,9 +191,6 @@ main{
     text-align: center;
     font-size: 18px;
     background: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: default;
     cursor: grab;
   }
@@ -297,7 +294,7 @@ background: linear-gradient(to right,#D36141,#17756E);
     display: block;
     background: #ffffff;
     margin: 0 5px;
-    transition: .3s;
+    transition: .5s ease-in-out;
   }
   .cards-container .owl-dots .active {
     box-shadow: none;
@@ -318,11 +315,6 @@ background: linear-gradient(to right,#D36141,#17756E);
     border: 0;
     cursor: grab;
   }
-  .cards-container .card h5 span {
-    font-size: 18px;
-    color: #666;
-  }
-
   .cards-container .active {
     opacity: 1;
     transition: all 0.3s;

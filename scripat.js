@@ -91,3 +91,13 @@ var swiper = new Swiper(".mySwiper", {
     })(jQuery);
   })();
   // End card slider two
+
+// start the swiper secound
+  var swiper = new Swiper(".mySwiper1", {
+    autoplay: {
+      delay: 1500,
+      disableOnInteraction: true,
+      loop:true,
+    },
+  });
+  // End the swiper secound
