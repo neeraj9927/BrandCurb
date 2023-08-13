@@ -140,7 +140,7 @@ main{
         z-index: 1000;
     }
     .nav_scroll{
-        display: none;
+        position: static;
     }
     .active{
         height: 300px;
