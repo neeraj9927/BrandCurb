@@ -274,9 +274,11 @@ background: linear-gradient(to right,#D36141,#17756E);
   }
   .owl-dot.active{
     height: 20px;
+   
   }
   .owl-stage{
     height: 230px;
+
   }
   .owl-item.active.center{
     height: 230px;
