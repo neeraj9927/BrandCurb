@@ -1,5 +1,1 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/develop5/public_html/
-    - /bin/cp * $DEPLOYPATH
+
